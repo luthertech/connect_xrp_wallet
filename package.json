@@ -1,5 +1,5 @@
 {
-  "name": "@luthertech/connect_xrp_wallet",
+  "name": "@luthertech/connect-xrp-wallet",
   "version": "0.1.0",
   "description": "Connect to Xummapp Wallet",
   "keywords": ["x r p"],
