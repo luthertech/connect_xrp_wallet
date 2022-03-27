@@ -1,0 +1,33 @@
+{
+  "name": "@luthertech/connect_xrp_wallet",
+  "version": "0.1.0",
+  "description": "Connect to Xummapp Wallet",
+  "keywords": ["x r p"],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": false,
+  "files": [ "dist", "README.md" ],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/luthertech/connect_xrp_wallet.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+  },
+
+  "author": "ryan wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luthertech/connect_xrp_wallet/issues"
+  },
+  "homepage": "https://github.com/luthertech/connect_xrp_wallet#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
